@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4ABA15C82217A0A0003AA73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA15C72217A0A0003AA73C /* AppDelegate.swift */; };
-		4ABA15CA2217A0A0003AA73C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA15C92217A0A0003AA73C /* ViewController.swift */; };
 		4ABA15CD2217A0A0003AA73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA15CB2217A0A0003AA73C /* Main.storyboard */; };
 		4ABA15CF2217A0A3003AA73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA15CE2217A0A3003AA73C /* Assets.xcassets */; };
 		4ABA15D22217A0A3003AA73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA15D02217A0A3003AA73C /* LaunchScreen.storyboard */; };
+		4ABA15DB2217A162003AA73C /* T1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA15D92217A162003AA73C /* T1.jpg */; };
+		4ABA15DC2217A162003AA73C /* AngryT1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ABA15DA2217A162003AA73C /* AngryT1.jpg */; };
+		4ABA15DE2217A278003AA73C /* AutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA15DD2217A278003AA73C /* AutoLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4ABA15C42217A0A0003AA73C /* AutoLayoutConstraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutConstraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABA15C72217A0A0003AA73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ABA15C92217A0A0003AA73C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ABA15CC2217A0A0003AA73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ABA15CE2217A0A3003AA73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ABA15D12217A0A3003AA73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ABA15D32217A0A3003AA73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABA15D92217A162003AA73C /* T1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = T1.jpg; path = "/Users/maxtaylor/Documents/iOS 2/Projects/Autolayout-Constraints/AutoLayoutConstraints/AutoLayoutConstraints/T1.jpg"; sourceTree = "<absolute>"; };
+		4ABA15DA2217A162003AA73C /* AngryT1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AngryT1.jpg; path = "/Users/maxtaylor/Documents/iOS 2/Projects/Autolayout-Constraints/AutoLayoutConstraints/AutoLayoutConstraints/AngryT1.jpg"; sourceTree = "<absolute>"; };
+		4ABA15DD2217A278003AA73C /* AutoLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				4ABA15C72217A0A0003AA73C /* AppDelegate.swift */,
-				4ABA15C92217A0A0003AA73C /* ViewController.swift */,
 				4ABA15CB2217A0A0003AA73C /* Main.storyboard */,
+				4ABA15DD2217A278003AA73C /* AutoLayoutViewController.swift */,
+				4ABA15DA2217A162003AA73C /* AngryT1.jpg */,
+				4ABA15D92217A162003AA73C /* T1.jpg */,
 				4ABA15CE2217A0A3003AA73C /* Assets.xcassets */,
 				4ABA15D02217A0A3003AA73C /* LaunchScreen.storyboard */,
 				4ABA15D32217A0A3003AA73C /* Info.plist */,
@@ -124,6 +130,8 @@
 			files = (
 				4ABA15D22217A0A3003AA73C /* LaunchScreen.storyboard in Resources */,
 				4ABA15CF2217A0A3003AA73C /* Assets.xcassets in Resources */,
+				4ABA15DB2217A162003AA73C /* T1.jpg in Resources */,
+				4ABA15DC2217A162003AA73C /* AngryT1.jpg in Resources */,
 				4ABA15CD2217A0A0003AA73C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABA15CA2217A0A0003AA73C /* ViewController.swift in Sources */,
 				4ABA15C82217A0A0003AA73C /* AppDelegate.swift in Sources */,
+				4ABA15DE2217A278003AA73C /* AutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
